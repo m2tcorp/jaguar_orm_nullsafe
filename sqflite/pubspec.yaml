@@ -1,0 +1,26 @@
+name: jaguar_query_sqflite_nullsafety
+description: SQFLite database adapter for jaguar_query for Flutter. Use it in combination with jaguar_orm to write concise and readable database queries.
+version: 2.2.12
+homepage: https://github.com/xxzj990/jaguar_orm_nullsafe
+# documentation:
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+flutter:
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.0.0+3
+  jaguar_query_nullsafety:
+    git:
+      url: https://github.com/maxleexyz/jaguar_orm_nullsafe.git
+      path: query
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+# dependency_overrides:
+#jaguar_query:
+#  path: ../query

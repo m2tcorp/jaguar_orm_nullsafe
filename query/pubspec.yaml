@@ -1,0 +1,14 @@
+name: jaguar_query_nullsafety
+description: Dialect neutral, fluent Dart DSL to build SQL/NoSQL queries
+version: 2.3.0
+homepage: https://github.com/m2tcorp/jaguar_orm_nullsafe
+# documentation:
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+  meta: ^1.9.1
+
+dev_dependencies:
+  test: ^1.17.10
